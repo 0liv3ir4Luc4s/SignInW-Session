@@ -1,0 +1,9 @@
+@use '../abstracts/functions' as *;
+body {
+    color: clr(neutral, white);
+    font: 400 font-family();
+}
+.heading {
+    font-weight: 500;
+    font-size: 1.875rem;
+}
