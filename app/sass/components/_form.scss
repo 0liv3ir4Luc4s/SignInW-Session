@@ -19,13 +19,19 @@ body {
         top: 2.0625rem;
         bottom: .875rem;
     }
-    .svg-password_eye {
+    #svg-password_eye {
         position: absolute;
         top: 2.4375rem;
         bottom: 0.5625rem;
         right: 0;
     }
+    .hide-password {
+        path {
+            fill: clr(primary);
+        }
+    }
     input {
+        width: 100%;
         background-color: #000;
         color: #fff;
         outline: none;
