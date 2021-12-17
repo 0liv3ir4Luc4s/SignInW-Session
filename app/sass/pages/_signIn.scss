@@ -20,10 +20,17 @@
 #sign-in-extra-op {
     font-size: 0.75rem;
     font-weight: 300;
+    margin-bottom: 3.75rem;
 }
 input[name="remember-password"] {
     margin-right: .625rem;
 }
 #forgot-password {
     color: inherit;
+}
+#sign-in-social {
+    margin-top: 2.4375rem;
+    span {
+        margin-bottom: 1.9375rem;
+    }
 }
