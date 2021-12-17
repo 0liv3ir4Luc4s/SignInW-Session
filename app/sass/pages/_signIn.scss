@@ -1,0 +1,36 @@
+@use '../abstracts/functions' as *;
+#sign-in-container {
+    margin: 8.25rem 4.5rem 8.305rem 4.6875rem;
+}
+#sign-in-heading {
+    margin-bottom: 3.25rem;
+    .heading {
+        margin-bottom: 1.375rem;
+    }
+}
+#register-here {
+    color: clr(primary);
+}
+#sign-in-form {
+    margin-bottom: 1.0625rem;
+    .animated-input:first-child {
+        margin-bottom: 3.25rem;
+    }
+}
+#sign-in-extra-op {
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-bottom: 3.75rem;
+}
+input[name="remember-password"] {
+    margin-right: .625rem;
+}
+#forgot-password {
+    color: inherit;
+}
+#sign-in-social {
+    margin-top: 2.4375rem;
+    span {
+        margin-bottom: 1.9375rem;
+    }
+}
