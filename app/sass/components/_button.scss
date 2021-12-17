@@ -1,0 +1,9 @@
+@use '../abstracts/functions' as *;
+.button-login {
+    color: inherit;
+    font-size: 1.0625rem;
+    padding: .875rem 0 .8125rem 0;
+    background-color: clr(primary);
+    border-radius: 2rem;
+    border: none
+}
