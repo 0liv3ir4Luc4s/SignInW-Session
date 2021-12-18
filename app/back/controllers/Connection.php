@@ -36,7 +36,7 @@
             return $this->pdo;
         }
 
-        public function encerrarConexao()
+        public function closeConnection()
         {
             $this->pdo = null;
         }
