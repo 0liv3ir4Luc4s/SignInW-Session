@@ -12,18 +12,22 @@ body {
         pointer-events: none;
         top: 2.1875rem;
         bottom: .75rem;
+        width: .78875rem;
     }
     .svg-password {
         position: absolute;
         pointer-events: none;
         top: 2.0625rem;
         bottom: .875rem;
+        width: 1.144375rem;
     }
     #svg-password_eye {
         position: absolute;
         top: 2.4375rem;
         bottom: 0.5625rem;
         right: 0;
+        width: .8125rem;
+        height: .755625rem;
     }
     .show-password {
         path {
@@ -40,6 +44,9 @@ body {
         padding-left: 1.6875rem;
         font-size: 1rem;
         line-height: 1.5;
+        &::placeholder {
+            font-size: .8125rem;
+        }
     }
     label {
         position: absolute;
@@ -51,6 +58,18 @@ body {
         left: 0;
         pointer-events: none;
         border-bottom: .125rem solid clr(neutral, white);
+    }
+    @media (min-width: 992px) {
+       input::placeholder {
+           font-size: 1rem;
+       } 
+       .svg-email, .svg-password {
+           width: auto;
+       }
+       #svg-password_eye {
+            width: .875rem;
+            height: .875rem;
+       }
     }
     label::after {
         width: 100%;

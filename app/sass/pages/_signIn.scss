@@ -1,6 +1,6 @@
 @use '../abstracts/functions' as *;
 #sign-in-container {
-    margin: 0 4.5rem 0 4.6875rem;
+    margin: auto 1.75rem auto 1.6875rem;
 }
 #sign-in-heading {
     margin-bottom: 2rem;
@@ -35,7 +35,24 @@ input[name="remember-password"] {
     span {
         margin-bottom: 1.9rem;
     }
+    svg {
+        width: 2.12rem;
+        height: 2.133125rem;
+    }
 }
 .video-container {
     border-radius: 0 2.5rem 2.5rem 0;
+}
+@media (min-width: 992px) {
+    #sign-in-container {
+        margin: auto 4.5rem auto 4.6875rem;
+    }
+}
+@media (min-width: 576px) {
+    #sign-in-social {
+        svg {
+            width: 2.59125rem;
+            height: 2.59125rem;
+        }
+    }
 }
