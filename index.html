@@ -13,7 +13,12 @@
 </head>
 <body>
    <div class="d-flex">
-       <div id="sign-in-container">
+       <div class="video-container flex-grow-1 min-vh-100 position-relative overflow-hidden">
+        <video class="position-absolute" autoplay muted loop>
+        <source src="app/assets/airplane.mp4" type="video/mp4">
+       </video>
+       </div>
+       <div id="sign-in-container" class="my-auto">
            <div id="sign-in-heading">
                 <h1 class="heading">Sign in</h1>
                 <p>If you don’t have an account register</p>
@@ -51,7 +56,7 @@
                         <span>Password</span>
                     </label>
                </div>
-           <div id="sign-in-extra-op" class="d-flex justify-content-between">
+                <div id="sign-in-extra-op" class="d-flex justify-content-between">
                 <div><input type="checkbox" name="remember-password"><span>Remember me</span></div>
                 <a id="forgot-password" href="#" class="text-decoration-none">Forgot password?</a> 
            </div>
