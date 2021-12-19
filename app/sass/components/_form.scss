@@ -7,14 +7,14 @@ body {
     overflow: hidden;
     position: relative;
 
-    .svg-email {
+    #svg-email {
         position: absolute;
         pointer-events: none;
         top: 2.1875rem;
         bottom: .75rem;
         width: .78875rem;
     }
-    .svg-password {
+    #svg-password {
         position: absolute;
         pointer-events: none;
         top: 2.0625rem;
