@@ -20,12 +20,12 @@
         {
             return $this->senha;
         }
-        public function login($email, $password)
+        public function login($email, $senha)
         {
-            if ($this->email === $email) {
+            if ($this->email == $email) {
                return password_verify($senha, $this->senha); 
             } else {
-                return false;
+               return false;
             }
         }
     }
