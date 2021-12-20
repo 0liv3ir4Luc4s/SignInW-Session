@@ -1,7 +1,7 @@
 const password_eye = document.getElementById("svg-password_eye");
 const password_input = document.getElementById("password");
 if (getCookie("PHPSESSID")) {
-    window.location.href = "http://lucaso.ntectreinamentos.com.br/proj3/app/back/login.php";
+    window.location.href = "http://localhost/SignInW-Session/app/back/login.php";
 }
 password_eye.addEventListener("click", (ev) => {
     if(password_input.type == "password") {
