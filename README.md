@@ -21,6 +21,7 @@ O "Sign in with session" é uma aplicação full-stack de login manual e automá
 ## Back end
 - PHP
 - MySQL
+- Java<sup>Implementação java em https://github.com/0liv3ir4Luc4s/SignInW-Session-Java</sup>
 
 ## Créditos
 
